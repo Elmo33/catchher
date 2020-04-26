@@ -34,7 +34,8 @@ class game:
             popupmsg("You Win")
 
         def moan(event):
-            PlaySound("Evelynn.attack15.wav", SND_ASYNC | SND_FILENAME)
+            PlaySound("Evelynn.attack15.wav", SND_ASYNC |  SND_FILENAME)
+
 
         random.randint(0, 300)
         root.geometry("700x700")
